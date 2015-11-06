@@ -7,13 +7,13 @@
                                                                                 
         Version: $Id: pom.xml 34196 2009-10-22 13:32:49Z groldan $              
      ======================================================================= -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                                 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.geotools</groupId>
     <artifactId>geotools</artifactId>
-    <version>11-SNAPSHOT</version>
+    <version>PO11.x.1</version>
   </parent>
 
 
@@ -229,8 +229,8 @@
             <configuration>
               <tasks>
                 <ant antfile="build.xml" dir="${basedir}" target="${target}">
-                  <property name="build.directory" value="${project.build.directory}"/>
-                  <property name="project.version" value="${project.version}"/>
+                  <property name="build.directory" value="${project.build.directory}" />
+                  <property name="project.version" value="${project.version}" />
                 </ant>
               </tasks>
             </configuration>

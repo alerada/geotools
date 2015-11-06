@@ -7,16 +7,13 @@
 
         Version: $Id$
      ======================================================================= -->
-  <project xmlns="http://maven.apache.org/POM/4.0.0"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                               http://maven.apache.org/maven-v4_0_0.xsd">
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                                http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.geotools</groupId>
     <artifactId>unsupported</artifactId>
-    <version>11-SNAPSHOT</version>
+    <version>PO11.x.1</version>
   </parent>
   
   <profiles>
@@ -187,8 +184,7 @@
 					<configuration>
 						<tasks>
 							<delete>
-								<fileset dir="${project.build.directory}/dependency"
-									includes="commons-logging*.jar,servlet-api-2.4.jar,core*.jar"/>
+								<fileset dir="${project.build.directory}/dependency" includes="commons-logging*.jar,servlet-api-2.4.jar,core*.jar" />
 
 							</delete>
 						</tasks>

@@ -7,16 +7,13 @@
                                                                                 
         Version: $Id$              
      ======================================================================= -->
-  <project xmlns="http://maven.apache.org/POM/4.0.0" 
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                               http://maven.apache.org/maven-v4_0_0.xsd">
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.geotools</groupId>
     <artifactId>geotools</artifactId>
-    <version>11-SNAPSHOT</version>
+    <version>PO11.x.1</version>
   </parent>
   
 
@@ -66,7 +63,7 @@
       <!--       Do NOT link source code, because it duplicates    -->
       <!--       jxr-maven-plugin.                                 -->
       <!--                                                         -->
-      <!--       <sourcepath/> and <subpackages/> elements do not  -->
+      <!--       <sourcepath /> and <subpackages /> elements do not  -->
       <!--       seem to work with aggregated javadoc.             -->
       <!--                                                         -->
       <!-- ======================================================= -->
@@ -115,7 +112,7 @@
           </taglets>
 
           <!-- Enables the Javadoc tool to interpret a simple, one-argument -->
-          <!-- custom block tag tagname in doc comments. Note: <placement/> -->
+          <!-- custom block tag tagname in doc comments. Note: <placement /> -->
           <!-- should be a combinaison of the letters Xaoptcmf.             -->
           <tags>
             <tag>
